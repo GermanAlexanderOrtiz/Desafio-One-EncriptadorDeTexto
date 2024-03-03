@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encriptador NAO</title>
+    <link rel="stylesheet" href="style_desafio.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="img/hacker-5151533_1280.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="header">
+                <a href="https://www.linkedin.com/in/german-alexander-ortiz-pe%C3%B1a-6184162aa" target="_blank"><img
+                        src="img/Logo.png" alt="Logo Berserk Reemplazo Alura" class="logo"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="CuadroIzq" id="Izq">
+                <textarea class="textareaIzq" name="textareaIzq" id="textareaIzq" placeholder="Ingrese el texto aquí"
+                    autofocus></textarea>
+                <div class="contenedor_botones">
+                    <span class="InfoTermino">
+                        &#xFE15; Solo minúsculas sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="btEncriptar" class="bt_encriptar">Encriptar</button>
+                        <button id="btDesencriptar" class="bt_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="CuadroDere" id="Dere">
+                <img id="muñeco" class="muñeco" src="img/hacker.png" alt="muñeco sin texto encriptado">
+                <textarea class="mensaje" name="mensaje" id="mensaje"
+                    placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="bt_copiar bt_ocultar" id="btCopiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
